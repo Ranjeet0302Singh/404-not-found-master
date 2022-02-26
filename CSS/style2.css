@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.error {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: normal;
+    line-height: 25px;
+    color: #333;
+    width: 133px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    letter-spacing: -0.08em;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scarecrow img {
+    width: 35rem;
+}
+
+.content h3 {
+    font-family: 'Space Mono', monospace;
+    width: 586px;
+    height: 210px;
+    font-size: 55px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.content p {
+    width: 381px;
+    height: 130px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.content .button {
+
+    background-color: #333;
+    display: flex;
+    color: #fff;
+    width: 200px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 140px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+@media(max-width:1200px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .scarecrow img {
+        margin: 1rem;
+    }
+
+    .content h3 {
+        margin: 2rem;
+
+    }
+
+    .content p {
+        margin: 2rem;
+    }
+
+    .content .button {
+        margin: 2rem;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+/* margin-left: 10rem; */
+    }
+}
