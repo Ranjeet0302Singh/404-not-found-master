@@ -82,7 +82,7 @@ footer {
     text-align: center;
 }
 
-@media(max-width:1100px){
+@media(max-width:1100px) {
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -116,7 +116,8 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-end;
-margin-left: 7rem;
-width: 40vw;
+    height: 70px;
+    margin-left: 7rem;
+        width: 40vw;
     }
 }
