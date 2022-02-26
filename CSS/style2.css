@@ -94,21 +94,26 @@ footer {
 
 @media(max-width:700px) {
 
-    /* .scarecrow img {
-        margin: 1rem;
-    } */
+    .scarecrow img {
+        width: 20rem;
+    }
 
     .content h3 {
-        margin: 2rem;
-
+        margin:  0rem 2rem;
+        font-size: 40px;
+        /* line-height: 5px; */
+    width: 400px;
+    /* letter-spacing: -0.005em; */
     }
 
     .content p {
-        margin: 2rem;
+        margin: 0rem 2rem;
+        font-size: 20px;
+        line-height: 26px;
     }
 
     .content .button {
-        margin: 2rem;
+        margin: 0rem 2rem;
     }
 
     footer {
