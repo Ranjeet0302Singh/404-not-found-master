@@ -116,8 +116,8 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-end;
-    height: 20px;
-    margin-left: 7rem;
+        height: 30px;
+        margin-left: 7rem;
         width: 50vw;
     }
 }
