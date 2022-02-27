@@ -123,6 +123,7 @@ footer {
 
 @media screen and (max-width:480px) {
     h2{
+        font-size: 18px;
         padding-left: 0px;
 
     }
